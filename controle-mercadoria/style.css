@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    white-space: nowrap; /* Impedir que o conteúdo seja quebrado em várias linhas */
+  }
+
+  .page {
+    display: inline-block; /* Colocar as páginas em linha */
+    width: 100vw; /* Largura igual à largura da tela */
+    height: 100vh; /* Altura igual à altura da tela */
+  }
+
+  .selector {
+    margin: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
