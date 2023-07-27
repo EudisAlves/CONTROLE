@@ -25,3 +25,5 @@ document.addEventListener('keydown', (event) => {
 });
 
 updateSelectors(); // Inicialmente, definir a cor do seletor para a página atual
+
+updateSelectors(); //inicialmente, definir a cor do seletor para a página atual
