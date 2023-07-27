@@ -15,10 +15,17 @@
   }
 
   .selector {
+    display: inline-block;
     margin: 10px;
+    width: 60px;
+    height: 30px;
     cursor: pointer;
-    padding: 5px 10px;
+    padding: 5px;
     background-color: #eee;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 50px;
+    font-size: 11px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   }
